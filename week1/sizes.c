@@ -15,5 +15,8 @@ int main(void) {
     printf("int16_t: %zu\n", sizeof(int16_t));
     printf("uint32_t: %zu\n", sizeof(uint32_t));
     printf("uint64_t: %zu\n", sizeof(uint64_t));
+    uint8_t x = 255;
+    x = x + 1;
+    printf("%u\n", x);  
     return 0;
 }
