@@ -12,3 +12,6 @@ reverse
 week2/bits
 week2/struct
 week2/union
+week*/*
+!week*/*.c
+!week*/Makefile
