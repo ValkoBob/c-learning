@@ -34,7 +34,7 @@ int main(void) {
     uint8_t pkt[4] = { 0x21, 0xEB, 0x00, 0xCA }; //0xCB
     sensor_data_t data;
 
-    printf("%04X\n", (uint16_t)-50);
+
 
     if (parse_packet(pkt, &data)) {
         printf("ready = %u, error = %u, mode = %u, temp = %.1f\n",

@@ -2,8 +2,8 @@
 #include <stdint.h>
 
 typedef struct {
-    float temperature;
     uint16_t id;
+    float temperature;
     uint8_t humidity;
 } sensor_reading_t;
 

@@ -32,7 +32,5 @@ int main(void){
     char d[] = "";
     reverse(a); reverse(b); reverse(c); reverse(d);
     printf("[%s] [%s] [%s] [%s]\n", a, b, c, d);
-
-    reverse("hello");
     return 0;
 }
